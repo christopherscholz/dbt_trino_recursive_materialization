@@ -1,0 +1,6 @@
+name: 'dbt_trino_recursive_materialization'
+version: '0.1.0'
+require-dbt-version: [">=1.3.0-rc1", "<1.4.0"]
+config-version: 2
+
+macro-paths: ["macros"]
